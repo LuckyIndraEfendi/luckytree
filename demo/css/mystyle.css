@@ -1,0 +1,76 @@
+.partikel-js {
+  position: absolute;
+}
+
+.partikelJS {
+  z-index: 99;
+  position: relative;
+}
+
+.partikelJS .container .logo .images {
+  display: flex;
+  justify-content: center;
+}
+
+.partikelJS .container .logo h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+}
+
+.partikelJS .container .logo img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* Option */
+
+.option {
+  margin-top: 10vh;
+}
+
+.option .menu .items {
+  border: 1px solid #fff;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 5px 3px 0 #fff;
+  gap: 10px;
+  margin: 20px 0;
+  /* height: 30px; */
+  padding: 10px;
+}
+.option .menu .items .items-logo img {
+  width: 30px;
+}
+
+.option .menu .items .title-items {
+  width: 100%;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #fff;
+  margin-left: -10px;
+}
+
+@media screen and (max-width: 576px) {
+  .partikelJS {
+    left: 0%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .partikelJS {
+    left: 20%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .partikelJS {
+    left: 15%;
+  }
+}
